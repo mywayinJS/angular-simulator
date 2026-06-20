@@ -1,1 +1,60 @@
-<h1 style="display: flex; justify-content: center; font-family: sans-serif;">NGX SIMULATOR</h1>
+<header class="header flex">
+  <div class="container header-container flex">
+
+    <div class="logo-container flex">
+    <img class="logo" src="/images/logo-icon.svg" alt="logo">
+    <span class="logo-text semibold fs-16">{{companyName}}</span>
+    </div>
+
+    <nav class="header-menu regular fs-18 gap-24 flex">
+      <a href="#">Главная</a>
+      <a href="#">Про гида</a>
+      <a href="#">Программа тура</a>
+      <a href="#">Стоимость</a>
+      <a href="#">Блог</a>
+      <a href="#">Контакты</a>
+    </nav>
+
+    <button class="consultation-button primary-button">Консультация</button>
+  </div>
+</header>
+
+<section class="hero-section flex">
+
+  <div class="container">
+
+  <h1 class="regular">Насладись прогулкой в горах
+    с&nbsp;командой единомышленников</h1>
+
+  <form class="hero-section__search-forms flex">
+
+    <div class="forms-container gap-24 flex">
+
+      <div class="form-group flex">
+        <select name="location" required>
+          <option value="" disabled selected>Локация для тура</option>
+        </select>
+        <span class="text-field fs-14 light">выберите из списка</span>
+      </div>
+
+      <div class="form-group flex">
+        <input type="date" placeholder="Дата похода">
+        <span class="text-field fs-14 light">укажите дату</span>
+      </div>
+
+      <div class="form-group flex">
+        <select name="participants" required>
+          <option value="" disabled selected>Участники</option>
+        </select>
+        <span class="text-field fs-14 light">выберите из списка</span>
+      </div>
+
+      <button class="search-button primary-button">Найти программу</button>
+
+    </div>
+
+  </form>
+
+  </div>
+
+</section>
