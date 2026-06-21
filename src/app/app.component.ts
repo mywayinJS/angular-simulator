@@ -14,6 +14,9 @@ export class AppComponent {
   companyName: string = 'румтибет';
 
   constructor() {
+    this.saveLastVisitDate();
+    this.updateVisitCount();
+
     const browserCollection = new Collection<string>(['Chrome', 'Firefox', 'Safari']);
     console.log(browserCollection.getAll());
 
