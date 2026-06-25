@@ -1,0 +1,18 @@
+.primary-button {
+  height: 52px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(26, 62, 62, 1);
+  color: var(--white-color);
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.012em;
+  cursor: pointer;
+
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
